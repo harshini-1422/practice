@@ -23,7 +23,7 @@ class CalculatorTest(unittest.TestCase):
         self.assertEqual(10, self.calc.add(3, 7), "The addition is wrong")
 
     def test_subtract(self):
-        self.assertEqual(12, self.calc.subtract(15, 3), "Subtraction is wrong")
+        self.assertEqual(13, self.calc.subtract(15, 3), "Subtraction is wrong")
 
     def test_multiply(self):
         self.assertEqual(30, self.calc.multiply(5, 6), "Multiplication is wrong")
@@ -34,5 +34,3 @@ class CalculatorTest(unittest.TestCase):
 if __name__ == '__main__':
     unittest.main()
 
-print("saanya")
-print("saanya")
